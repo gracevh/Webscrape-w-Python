@@ -97,14 +97,7 @@ last_31 = copy2.drop("2019",axis=1) # remove the nearly empty column
 
 
 
-
-
-
-
-
-
-
-
+## Additional useful call techniques for personal reference
 tables = soup.findChildren('table', limit=2) # finds all of the <table>content</table> children that belong to tag html, but limit the number of tables to 2 
 len(tables) # how many tables 
 tables[1] # gives the first table
