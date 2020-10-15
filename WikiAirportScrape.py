@@ -28,8 +28,6 @@ x = "2019[2] 21(5)"
 
 re.sub("[\(\[].*?[\)\]]", "", x) # use regex function to remove brackets and parentheses from a string
 re.sub("[\[].*?[\]]", "", x) # use regex function to remove bracketed info from a string
-
-
         
         
 # get first table with find using tag "table"
