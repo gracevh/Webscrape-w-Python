@@ -1,10 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug  4 21:42:21 2020
-
-@author: burlios
-"""
+# This is an exercise in scraping the lesson list and objectives off of a Penn State University online statistics course
+# A dataframe is created with the lesson numbers and corresponding objectives 
 
 
 import requests # for making standard html requests
